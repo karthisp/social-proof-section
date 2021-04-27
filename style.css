@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.social-proof-wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.heading-ratings {
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid rgb(97, 97, 24); */
+}
+
+.heading-declaration {
+    max-width: 50%;
+    width: 100%;
+}
+
+.heading-declaration h1 {
+    font-size: 50px;
+    max-width: 80%;
+    color: hsl(300, 43%, 22%);
+}
+
+.heading-declaration p {
+    max-width: 90%;
+    line-height: 200%;
+    font-size: 17px;
+}
+
+.ratings {
+    max-width: 50%;
+    width: 100%;
+}
+
+.ratings p{
+    margin-left: 20px;
+}
+
+.ratings li {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: hsl(300, 24%, 96%);
+}
+
+.ratings li:nth-child(2){
+    margin-left:5em;
+}
+
+.ratings li:nth-child(3){
+    margin-left:10em;
+}
+
+.ratings img {
+    margin-left: 10px;
+}
+
+/* cards */
+
+.testimonial-cards {
+    margin: 2em 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid green; */
+}
+
+.card {
+    max-width: 400px;
+    border-radius: 10px;
+    background: hsl(300, 43%, 22%);
+    color: hsl(300, 24%, 96%);
+    padding: 2em;
+}
+
+.card:nth-child(2){
+    margin-top: 3em;
+}
+
+.card:nth-child(3){
+    margin-top: 6em;
+}
+
+.img-user-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+.img-user-name img {
+    border-radius: 50%;
+}
+
+td {
+    color: hsl(333, 80%, 67%);
+}
+
+.card p {
+    word-wrap: break-word;
+    line-height: 200%;
+}
+
+/* footer */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
